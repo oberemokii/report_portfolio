@@ -1,5 +1,5 @@
 ## Dashboard Title
-A dashboard for company executives to monitor and analyze the implementation of the company’s project portfolio.  
+Dashboard for company executives to monitor and analyze the implementation of the company’s project portfolio.  
 
 ## Contents
 - Report in **Microsoft Power BI** format  
