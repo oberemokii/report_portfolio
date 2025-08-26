@@ -4,12 +4,22 @@
 This repository contains an example **Power BI dashboard** that helps **company executives monitor and analyze the implementation of a project portfolio**. It is special because it consolidates project performance data (deadlines, costs, tasks, and resource allocation) into one place and provides multiple analytical views:
 
 - **Main**: Portfolio overview with deviations in time, cost, and execution. High-level tasks are also displayed with deviation metrics.
+<img src="/images/Main.jpg" alt="Portfolio overview with deviations in time, cost, and execution" width="100%">
+ 
+- **S-Curve**: A chart to evaluate project implementation efficiency.
+<img src="/images/S-Curve.jpg" alt="Portfolio overview with deviations in time, cost, and execution" width="100%">
 
-- 
-- **S-Curve**: A chart to evaluate project implementation efficiency.  
-- **Details**: Tables with deliverable readiness and current project tasks, useful for tracking overdue items.  
-- **Months**: Tasks from past, current, and upcoming months to assess planning and execution quality.  
-- **Costs**: Project costs broken down by resource types and task categories.  
+- **Details**: Tables with deliverable readiness and current project tasks, useful for tracking overdue items.
+  
+<img src="/images/Details.jpg" alt="Portfolio overview with deviations in time, cost, and execution" width="100%">
+
+- **Months**: Tasks from past, current, and upcoming months to assess planning and execution quality.
+  
+<img src="/images/Months.jpg" alt="Portfolio overview with deviations in time, cost, and execution" width="100%">
+
+- **Costs**: Project costs broken down by resource types and task categories.
+  
+<img src="/images/Costs.jpg" alt="Portfolio overview with deviations in time, cost, and execution" width="100%">
 
 The dashboard uses project data from the **MS Project Online server**.
 
