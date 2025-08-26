@@ -45,7 +45,7 @@ It can also serve as an example for teams learning how to build **multi-page, da
 
 ## How to Run
 
-<img src="/images/Connection" alt="Connection MS Project Online and MS Power BI" width="100%">
+<img src="/images/Connection.jpg" alt="Connection MS Project Online and MS Power BI" width="100%">
 
 1. Install **Microsoft Power BI Desktop** and log in with your account.  
 2. Open the `.pbix` dashboard file.  
