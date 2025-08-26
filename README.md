@@ -3,7 +3,9 @@
 ## What
 This repository contains an example **Power BI dashboard** that helps **company executives monitor and analyze the implementation of a project portfolio**. It is special because it consolidates project performance data (deadlines, costs, tasks, and resource allocation) into one place and provides multiple analytical views:
 
-- **Main**: Portfolio overview with deviations in time, cost, and execution. High-level tasks are also displayed with deviation metrics.  
+- **Main**: Portfolio overview with deviations in time, cost, and execution. High-level tasks are also displayed with deviation metrics.
+
+- 
 - **S-Curve**: A chart to evaluate project implementation efficiency.  
 - **Details**: Tables with deliverable readiness and current project tasks, useful for tracking overdue items.  
 - **Months**: Tasks from past, current, and upcoming months to assess planning and execution quality.  
