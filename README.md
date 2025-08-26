@@ -1,25 +1,48 @@
-## Dashboard Title
-Dashboard for company executives to monitor and analyze the implementation of the company’s project portfolio.  
+# 📊 Project Portfolio Dashboard (Power BI)
 
-## Contents
-- Report in **Microsoft Power BI** format  
-- Report in **PDF** format  
+## What
+This repository contains an example **Power BI dashboard** that helps **company executives monitor and analyze the implementation of a project portfolio**. It is special because it consolidates project performance data (deadlines, costs, tasks, and resource allocation) into one place and provides multiple analytical views:
 
-## Description
-This dashboard is designed for executives to control and analyze the company’s project portfolio.  
-It includes the following pages:  
+- **Main**: Portfolio overview with deviations in time, cost, and execution. High-level tasks are also displayed with deviation metrics.  
+- **S-Curve**: A chart to evaluate project implementation efficiency.  
+- **Details**: Tables with deliverable readiness and current project tasks, useful for tracking overdue items.  
+- **Months**: Tasks from past, current, and upcoming months to assess planning and execution quality.  
+- **Costs**: Project costs broken down by resource types and task categories.  
 
-1. **Main** – Overview of the project portfolio with deviation assessments for deadlines, costs, and project execution. High-level project tasks are also shown with deviation analysis.  
-2. **S-Curve** – Chart for evaluating the effectiveness of project implementation.  
-3. **Details** – A table with the readiness status of project deliverables and a table describing current project portfolio tasks. These tables are used to track overdue deliverables and task deadlines.  
-4. **Months** – A table with tasks from the previous, current, and upcoming months. This table evaluates the quality of project planning and execution.  
-5. **Costs** – A breakdown of project costs by resource types and task categories. This table is used to monitor portfolio project expenses.  
+The dashboard uses project data from the **MS Project Online server**.
+
+---
+
+## Why
+This dashboard is designed as a **practical tool for executives** to:
+- Control and analyze project portfolio performance.  
+- Identify risks in deadlines, budgets, and deliverables.  
+- Demonstrate the use of **Power BI for portfolio management reporting**.  
+
+It can also serve as an example for teams learning how to build **multi-page, data-driven dashboards in Power BI**.
+
+---
+
+## Limitation
+⚠️ Please note:
+- The **Power BI file (.pbix)** is a binary and cannot be viewed directly on GitHub.  
+- You will need a **Power BI Desktop (free) or Power BI Pro** instance to open and interact with the dashboard.  
+- To connect to your own data, update the `Path` parameter in **Power Query Editor** with your MS Project Online server address.  
+
+---
 
 ## How to Run
-1. Install **Microsoft Power BI** and log in with your account.  
-2. Open the dashboard in Power BI.  
-3. Go to the **Data** menu → **Get Data** → **Launch Power Query Editor**.  
-4. Update the parameter `Path`: replace the sample link "https://studyoberemokii.sharepoint.com/sites/ru/" with the address of your own server.  
+1. Install **Microsoft Power BI Desktop** and log in with your account.  
+2. Open the `.pbix` dashboard file.  
+3. In Power BI, go to **Data → Get Data → Launch Power Query Editor**.  
+4. Replace the sample server link:  
+   ```
+   https://studyoberemokii.sharepoint.com/sites/ru/
+   ```  
+   with your own MS Project Online server address.  
 5. In the **Home** menu, click **Refresh Preview**.  
-6. Adjust portfolios and portfolio types in the **Projects** table, responsible groups in the **Tasks** table, and resource groups in the **Resources** table.  
-7. In the same **Home** menu, click **Close & Apply**.  
+6. Adjust portfolio and portfolio types in the **Projects** table, responsible groups in the **Tasks** table, and resource groups in the **Resources** table.  
+7. In the **Home** menu, click **Close & Apply**.  
+
+---
+
