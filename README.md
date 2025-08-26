@@ -44,13 +44,13 @@ It can also serve as an example for teams learning how to build **multi-page, da
 ---
 
 ## How to Run
+
+<img src="/images/Connection" alt="Connection MS Project Online and MS Power BI" width="100%">
+
 1. Install **Microsoft Power BI Desktop** and log in with your account.  
 2. Open the `.pbix` dashboard file.  
 3. In Power BI, go to **Data → Get Data → Launch Power Query Editor**.  
-4. Replace the sample server link:  
-   ```
-   https://studyoberemokii.sharepoint.com/sites/ru/
-   ```  
+4. Replace the sample server link: "htps://studyoberemokii.sharepoint.com/sites/ru/"
    with your own MS Project Online server address.  
 5. In the **Home** menu, click **Refresh Preview**.  
 6. Adjust portfolio and portfolio types in the **Projects** table, responsible groups in the **Tasks** table, and resource groups in the **Resources** table.  
